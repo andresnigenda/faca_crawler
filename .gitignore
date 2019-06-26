@@ -1,6 +1,6 @@
 # Ignore everything
 *
-.ipynb_checkpoints
+faca_scraper/.ipynb_checkpoints
 
 # Not these files
 !.gitignore
