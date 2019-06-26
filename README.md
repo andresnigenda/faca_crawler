@@ -1,1 +1,15 @@
 # faca_crawler
+
+This spider crawls FACAdatabse.gov using the scrapy package to look for the urls of the Federal agency advisory committees. The Federal Advisory Committee Act (FACA) database contains information on around 1,000 advisory committees.
+
+To crawl the database, make sure you are on the root directory:
+
+```console
+foo@bar:~$ cd faca_scraper
+```
+
+Then run the faca_spider, and the results will be stored in the root directory as "facaspider_links.csv":
+
+```console
+foo@bar:~$ scrapy runspider faca_scraper/spiders/faca_spider.py
+```
