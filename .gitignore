@@ -1,6 +1,8 @@
 # Ignore everything
 *
 faca_scraper/.ipynb_checkpoints
+faca_scraper/facaspider_links.csv
+faca_scraper/clean_faca.csv
 
 # Not these files
 !.gitignore
