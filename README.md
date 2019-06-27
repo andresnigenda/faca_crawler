@@ -9,6 +9,6 @@ Then run the facaspider, and the results will be stored in the root directory as
 foo@bar:~$ cd faca_crawler/faca_scraper
 FACA.ipynb		faca_scraper		scrapy.cfg
 foo@bar:~$ scrapy runspider faca_scraper/spiders/facaspider.py
-FACA.ipynb		faca_scraper		scrapy.cfg
-facaspider_links.csv
+2019-06-27 10:28:22 [scrapy.utils.log] INFO: Scrapy 1.6.0 started (bot: faca_scraper)
+...
 ```
