@@ -5,7 +5,7 @@ This spider crawls FACAdatabse.gov using the scrapy package to look for the urls
 To crawl the database, make sure you are on the root directory:
 
 ```console
-foo@bar:~$ cd faca_crawler/faca_spider
+foo@bar:~$ cd faca_crawler/faca_scraper
 ```
 
 Then run the facaspider, and the results will be stored in the root directory as "facaspider_links.csv":
