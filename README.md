@@ -6,7 +6,7 @@ To crawl the database, make sure you are on the root directory of faca_crawler.
 Then run the facaspider, and the results will be stored in the root directory as "facaspider_links.csv".
 
 ```console
-foo@bar:~$ ls
-faca_crawler
+foo@bar:~$ cd faca_crawler
+README.md		faca_scraper		requirements.txt
 foo@bar:~$ scrapy runspider faca_scraper/faca_scraper/spiders/facaspider.py
 ```
