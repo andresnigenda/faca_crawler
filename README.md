@@ -5,11 +5,11 @@ This spider crawls FACAdatabse.gov using the scrapy package to look for the urls
 To crawl the database, make sure you are on the root directory:
 
 ```console
-foo@bar:~$ cd faca_scraper
+foo@bar:~$ cd faca_crawler/faca_spider
 ```
 
-Then run the faca_spider, and the results will be stored in the root directory as "facaspider_links.csv":
+Then run the facaspider, and the results will be stored in the root directory as "facaspider_links.csv":
 
 ```console
-foo@bar:~$ scrapy runspider faca_scraper/spiders/faca_spider.py
+foo@bar:~$ scrapy runspider faca_scraper/spiders/facaspider.py
 ```
