@@ -1,7 +1,7 @@
 # Run `pip3 install -r requirements.txt` to install packages.
 # Library dependencies for the main python code.
 
-Scrapy==1.6.0
+Scrapy==1.8.2
 
 # Library dependencies for the jupyter notebook
 
